@@ -2,6 +2,7 @@
 //echo date('d F Y', strtotime('fifth wednesday of March 2018'))."line1";
 
 //exit;
+/* get same day of same week every month*/
 $startdate = '2017-11-30';
 $enddate = '2028-03-31';
 $startday='01';
@@ -30,7 +31,8 @@ foreach($years as $year){
 		
 	}
 }
-
+/* get same day of same week every month ends here*/
+/* get same date of  every month*/
 $startdate = '2017-12-31';
 $enddate = '2018-12-31';
 $startday=date('d',strtotime($startdate));
@@ -53,8 +55,7 @@ foreach($years as $year){
 		}			
 	}
 }
-echo "<pre>";
-print_r($datesarray); 
+/* get same date of  every month ends here*/
 
 
 echo "<pre>";
