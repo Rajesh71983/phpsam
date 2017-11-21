@@ -1,0 +1,3 @@
+PowerGREP5.exe /search /regex /searchtext "great" /folder "C:\Users\Kumar.J\Desktop\test" /masks "*.xlsx" "*.bak" "" "" 0 /execute /save "C:\output\results.html"
+
+PowerGREP5.exe C:\Users\Kumar.J\Documents\listfiles11212.pga /execute /quit
